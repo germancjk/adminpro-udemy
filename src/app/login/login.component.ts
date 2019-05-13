@@ -29,7 +29,8 @@ export class LoginComponent implements OnInit {
 
     // si getItem es undefined entonces coloca null
     this.email = localStorage.getItem('email') || null;
-    if ( this.email.length > 1 ) {
+
+    if ( this.email && this.email.length > 1 ) {
       this.recuerdame = true;
     }
   }

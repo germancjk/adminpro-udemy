@@ -8,6 +8,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
@@ -34,7 +36,9 @@ import { PipesModule } from '../pipes/pipes.module';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,
