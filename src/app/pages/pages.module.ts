@@ -9,7 +9,6 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
@@ -34,7 +33,6 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
         AccountSettingsComponent,
@@ -42,7 +40,6 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent,
         HospitalesComponent,
         MedicosComponent,
         MedicoComponent,
@@ -51,8 +48,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     exports: [
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component,
-        PagesComponent
+        Graficas1Component
     ],
     imports: [
         CommonModule,
